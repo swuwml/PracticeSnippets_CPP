@@ -14,7 +14,7 @@ public:
 int main()
 {
     NonCopyable obj;
-    NonCopyable obj1(obj);
-    NonCopyable obj2 = obj;
+    //NonCopyable obj1(obj);
+    //NonCopyable obj2 = obj;
     return 0;
 }
