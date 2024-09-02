@@ -4,7 +4,7 @@ class NonCopyable
 {
 private:
     NonCopyable(const NonCopyable &) = delete;
-    NonCopyable operator=(const NonCopyable &) = delete;
+    NonCopyable& operator=(const NonCopyable &) = delete;
 
 public:
     NonCopyable() { std::cout << "NonCopyable()" << std::endl; }
